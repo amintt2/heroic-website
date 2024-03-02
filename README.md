@@ -5,6 +5,8 @@ This is a the Heroic Games Launcher Website repository
 Setting up a development environment:
 
 1. Make sure Git, NodeJS, and Yarn are installed
+If this is your first time using Git on Windows, you may need to run the following command first:
+Run yarn install (or npm install) to install all dependencies for your project
 2. Clone the repo and enter the cloned folder, for example with the following commands:
 
 ```bash

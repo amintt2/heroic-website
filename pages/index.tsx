@@ -5,6 +5,10 @@ import Link from 'next/link'
 import { motion } from 'framer-motion'
 
 import styles from '../styles/Home.module.css'
+import React from "react";
+import { BackgroundBeams } from "../components/ui/background-beams";
+
+
 
 const img1 = require('../assets/heroic_01.webp')
 const img2 = require('../assets/heroic_game.webp')
@@ -22,7 +26,7 @@ const hover = { scale: 1.05 }
 const transition = { duration: 0.5 }
 
 const Home: NextPage = () => {
-  return (
+    return (
     <>
       <Head>
         <title>Heroic Games Launcher</title>
